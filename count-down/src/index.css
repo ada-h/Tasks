@@ -1,0 +1,335 @@
+.portfolio{
+    -webkit-animation: portfolio 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+    animation: portfolio 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+}
+@-webkit-keyframes portfolio {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes portfolio {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+}
+.portfoliobody{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/YqGSkmb/human-brain-being-formed-by-particles-plexus-structure-evolving-around-blue-abstract-futuristic-science-and-technology-motion-background-3d-rendering-depth-of-field-settings_rhznrdvt__F0014.png'); */
+    background-repeat: no-repeat;
+    /* background-image: url('http://blog.bigpicturescience.org/wp-content/uploads/2016/12/braindustBIGGER.jpg') */
+}
+.works{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.portfolio{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.name{
+    font-size: 10vw;
+    text-align: center;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.924);
+    text-shadow: 3px 2px black;
+}
+.surname{
+    font-size: 10vw;
+    text-align: center;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.924);
+    text-shadow: 4px 3px black;
+}
+.works{
+	-webkit-animation: works 2s linear both;
+	animation: works 2s linear both;
+}
+@-webkit-keyframes works {
+    0% {
+      opacity: 1;
+    }
+    13.9% {
+      opacity: 1;
+    }
+    14% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    14.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    15% {
+      opacity: 1;
+    }
+    22.9% {
+      opacity: 1;
+    }
+    23% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    24.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    25% {
+      opacity: 1;
+    }
+    34.9% {
+      opacity: 1;
+    }
+    35% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    39.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    40% {
+      opacity: 1;
+    }
+    42.9% {
+      opacity: 1;
+    }
+    43% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    44.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    45% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    54.9% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    69.4% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    69.5% {
+      opacity: 1;
+    }
+    69.9% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    79.4% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    79.9% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    89.8% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    89.9% {
+      opacity: 1;
+      box-shadow: none;
+    }
+    90% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes works {
+    0% {
+      opacity: 1;
+    }
+    13.9% {
+      opacity: 1;
+    }
+    14% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    14.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    15% {
+      opacity: 1;
+    }
+    22.9% {
+      opacity: 1;
+    }
+    23% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    24.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    25% {
+      opacity: 1;
+    }
+    34.9% {
+      opacity: 1;
+    }
+    35% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    39.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    40% {
+      opacity: 1;
+    }
+    42.9% {
+      opacity: 1;
+    }
+    43% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    44.9% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    45% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    54.9% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    69.4% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    69.5% {
+      opacity: 1;
+    }
+    69.9% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    79.4% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    79.9% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    89.8% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    89.9% {
+      opacity: 1;
+      box-shadow: none;
+    }
+    90% {
+      opacity: 0;
+      box-shadow: none;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
